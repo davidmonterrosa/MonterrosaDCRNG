@@ -14,5 +14,5 @@
 + mm/dd/yyyy - DM - short description
 - 11/26/2024 - DM - Created git repository.
 
-Peer Reviewed By:
-> Comments: 
+Peer Reviewed By: Michael Heckerman
+> Comments: I like how you displayed your data in card format and that you were able to have to previous list not include the current person. I am unsure if all the data in the JSON file is needed on the site but it is nice that you have it if you need it. All in all your site works great. Keep up the good work.
