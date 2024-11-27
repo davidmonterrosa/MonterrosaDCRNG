@@ -1,6 +1,8 @@
 // Id Section
 let firstName = document.getElementById("firstName");
 let lastName = document.getElementById("lastName");
+let codestackEmail = document.getElementById("codestackEmail");
+let email = document.getElementById("email");
 let firstNameP1 = document.getElementById("firstNameP1");
 let lastNameP1 = document.getElementById("lastNameP1");
 let firstNameP2 = document.getElementById("firstNameP2");
@@ -42,10 +44,13 @@ randomNameBtn.addEventListener('click', function(){
         let latestChampion = generateChampion(codestack);
         console.log(latestChampion);
 
-        firstName.textContent = latestChampion.firstName
-        pastFirstNamesArray.unshift(latestChampion.firstName)
-        lastName.textContent = latestChampion.lastName
-        pastLastNamesArray.unshift(latestChampion.lastName)
+        firstName.textContent = latestChampion.firstName;
+        pastFirstNamesArray.unshift(latestChampion.firstName);
+        lastName.textContent = latestChampion.lastName;
+        pastLastNamesArray.unshift(latestChampion.lastName);
+
+        codestackEmail.textContent = latestChampion.codeStackEmail;
+        email.textContent = latestChampion.email;
 
         firstNameP1.textContent = pastFirstNamesArray[1];
         firstNameP2.textContent = pastFirstNamesArray[2];
